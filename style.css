@@ -1,0 +1,67 @@
+.main-div{
+    width: 800px;
+    height: 550px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: row;
+    margin: 50px 0 0 260px ;
+    border: 1px;
+    box-shadow: 1px 5px 10px 2px #acacac;
+}
+.welcome-div{
+    background: #1a2a6c;
+    background: linear-gradient(to right,#1a2a6c,#b21f1f,#fdbb2d);
+    height: 550px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.welcome-div h1{
+    width: 50px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 40px;
+}
+.content-div{
+    height: 550px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    column-gap: 1000px;
+    padding-left: 80px;
+    background-color: #f5f4f4;
+}
+.user-pass{
+    width: 260px;
+    height: 70px;
+    border: 2px solid #fdbb2d;
+}
+.content-form{
+    width: 270px;
+    height: 350px;
+    border: 2px solid #b21f1f;
+}
+#usernm{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#passwd{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #acacac;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.content-heading{
+    margin-top: -20px;
+}
+.content-p{
+    width: 250px;
+    margin-top: -20px;
+}
