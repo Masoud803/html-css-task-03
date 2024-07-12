@@ -1,17 +1,14 @@
 .main-div{
-    width: 800px;
+    width: 1000px;
     height: 550px;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
     flex-direction: row;
-    margin: 50px 0 0 260px ;
+    margin: 50px 0 0 150px ;
     border: 1px;
     box-shadow: 1px 5px 10px 2px #acacac;
 }
 .welcome-div{
-    background: #1a2a6c;
-    background: linear-gradient(to right,#1a2a6c,#b21f1f,#fdbb2d);
+    background: linear-gradient(132deg, rgb(2, 106, 122) 0.00%, rgb(242, 78, 163) 100.00%);
     height: 550px;
     width: 500px;
     display: flex;
@@ -19,14 +16,14 @@
     align-items: center;
 }
 .welcome-div h1{
-    width: 50px;
-    font-size: 50px;
+    width: 250px;
+    font-size: 60px;
     color: #ffffff;
     margin-left: 40px;
 }
 .content-div{
     height: 550px;
-    width: 400px;
+    width: 450px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -34,34 +31,61 @@
     padding-left: 80px;
     background-color: #f5f4f4;
 }
-.user-pass{
-    width: 260px;
-    height: 70px;
-    border: 2px solid #fdbb2d;
-}
 .content-form{
-    width: 270px;
+    width: 360px;
     height: 350px;
-    border: 2px solid #b21f1f;
+}
+.user-pass{
+    width: 350px;
+    height: 70px;
 }
 #usernm{
-    width: 250px;
-    height: 30px;
+    width: 350px;
+    height: 40px;
     border: 1px solid #acacac;
     border-radius: 5px;
     margin-top: 10px;
 }
 #passwd{
-    width: 250px;
-    height: 30px;
+    width: 350px;
+    height: 40px;
     border: 1px solid #acacac;
     border-radius: 5px;
     margin-top: 10px;
 }
+.forgot-passwd{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.fg-passwd-span a{
+    color: #030303;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.btn{
+    width: auto;
+    height: auto;
+}
+#lg-btn{
+    width: 350px;
+    height: 50px;
+    margin-left: 3px;
+    color: #ffffff;
+    background: linear-gradient(132deg, rgb(2, 106, 122) 0.00%, rgb(242, 78, 163) 100.00%);
+    border: 1px solid #acacac;
+    border-radius: 5px;
+}
+.new-user a{
+    text-decoration: none;
+    color: #9326f8;
+}
 .content-heading{
-    margin-top: -20px;
+    width: 250px;
+    height: 60px;
+    margin-top: -10px;
 }
 .content-p{
-    width: 250px;
-    margin-top: -20px;
+    width: 280px;
+    height: 60px;
 }
